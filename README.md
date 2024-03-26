@@ -30,7 +30,7 @@ Violation of the DMCA or Copyright law is the responsibility of the submitter.
 ## Primary Data Source
 
 We attempt to derive from machine sources and produce machine readable files (YAML) in this repo under `_data`.  For
-information about creating and extending data format see [Data Format Guidance](docs/Data_Formats).
+information about creating and extending data format see [Data Format Guidance](_docs/Data_Formats.md).
 
 Updates and additions there should automatically be reflected in the documents
 
@@ -42,13 +42,13 @@ following locations:
 * [Open Source at Apple Wesbite](https://opensource.apple.com)
 * [Apple's GitHub profile](https://github.com/apple)
 * [apple-oss-distributions's Github profile](https://github.com/apple-oss-distributions)
-* [Apple Gifts](docs/GIFTS)
+* [Apple Gifts](_docs/GIFTS.md)
 
 ## Tools
 
 ### Libraries for Binary Analysis and Modification
 
-See [docs/Binary_Tooling](docs/Binary_Tooling)
+See [docs/Binary_Tooling](_docs/Binary_Tooling.md)
 
 ### Tools for Binary Analysis and Modification
 
@@ -93,19 +93,19 @@ See [docs/Binary_Tooling](docs/Binary_Tooling)
 * [`Proteas/apple-cve`](https://github.com/Proteas/apple-cve)
 * [kpwn / qwertyoruiop's Wiki](https://github.com/kpwn/iOSRE/tree/master/wiki)
 * [kpwn / qwertyoruiop's Papers](https://github.com/kpwn/iOSRE/tree/master/resources/papers)
-* [About Apple Prototype and CPFM](docs/Prototypes)
+* [About Apple Prototype and CPFM](_docs/Prototypes.md)
 * [OWASP: iOS Tampering and Reverse Engineering](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06c-Reverse-Engineering-and-Tampering.md)
-* [Kernel Debug Kit](docs/KDK)
+* [Kernel Debug Kit](_docs/KDK.md)
 * [*OS Internals by Jonathan Levin](http://newosxbook.com/index.php)
-* [T2 Dev Setup](docs/T2)
-* [Apple 4CC](docs/4CC)
+* [T2 Dev Setup](_docs/T2.md)
+* [Apple 4CC](_docs/4CC.md)
 * [`bytepack/IntroToiOSReverseEngineering`](https://github.com/bytepack/IntroToiOSReverseEngineering)
 * [Remote Attack Surface](https://googleprojectzero.blogspot.com/2019/08/the-fully-remote-attack-surface-of.html)
 * [Lakr233's Research](https://lab.qaq.wiki/Lakr233/iOS-kernel-research/-/tree/master)
 
 ## Devices
 
-* [Device List](docs/Devices)
+* [Device List](_docs/Devices.md)
 * T2
   * [T2 Dev Team: `t8012` / Apple T2 / bridgeOS](https://t8012.dev)
   * [Duo Labs: Apple T2 XPC](https://duo.com/labs/research/apple-t2-xpc)
@@ -144,13 +144,13 @@ See [docs/Binary_Tooling](docs/Binary_Tooling)
 ### Bootloader Related
 
 * EFI
-  * [`EFI`](docs/EFI)
-* [`NVRAM`](docs/NVRAM)
+  * [`EFI`](_docs/EFI.md)
+* [`NVRAM`](_docs/NVRAM.md)
   * [NVRAM unlock](https://stek29.rocks/2018/06/26/nvram.html)
-* [`SEP_memmap`](docs/SEP_memmap)
-* [All About Kernels](docs/Kernels)
+* [`SEP_memmap`](_docs/SEP_memmap.md)
+* [All About Kernels](_docs/Kernels.md)
   * [`apple/darwin-xnu`](https://github.com/apple/darwin-xnu)
-* [`Factory_Firmware_Payloads`](docs/Factory_Firmware_Payloads)
+* [`Factory_Firmware_Payloads`](_docs/Factory_Firmware_Payloads.md)
 * iBoot
   * [iBoot Firebloom](https://saaramar.github.io/iBoot_firebloom/)
   * [`OpenJailbreak/iBootRE`](https://github.com/OpenJailbreak/iBootRE)
@@ -192,7 +192,7 @@ See [docs/Binary_Tooling](docs/Binary_Tooling)
 
 ### Image, Sound and Other Resources
 
-* [Apple Flavored PNG](docs/PNG)
+* [Apple Flavored PNG](_docs/PNG.md)
 * [Apple IMA ADPCM](https://wiki.multimedia.cx/index.php?title=Apple_QuickTime_IMA_ADPC)
   * [Using a Custom Startup Sound on a Power Macintosh G3 Blue and White](https://www.downtowndougbrown.com/2012/07/power-macintosh-g3-blue-and-white-custom-startup-sound/)
 * AirPlay2
@@ -200,14 +200,14 @@ See [docs/Binary_Tooling](docs/Binary_Tooling)
 
 ### Software Update / Installers
 
-* [Mobile Asset URLs](docs/Mobile_Assets)
+* [Mobile Asset URLs](_docs/Mobile_Assets.md)
 * [`notpeter/apple-installer-checksums`](https://github.com/notpeter/apple-installer-checksums)
 * [ipsw.me](https://ipsw.me)
 * [ipswbeta.dev](https://ipswbeta.dev)
 
 ### Code and Signature Formats
 
-* [Mach-O File Types](docs/MachO.md) - Mach-O / Signing / Entitlements
+* [Mach-O File Types](_docs/MachO.md) - Mach-O / Signing / Entitlements
   * [`sbingner/ldid`](https://github.com/sbingner/ldid) - Codesign tool
   * [`ProcursusTeam/ldid`](https://github.com/ProcursusTeam/ldid) - Alternative to sbingner/ldid with
     some updates for iOS 15 and general fixes
@@ -228,7 +228,7 @@ See [docs/Binary_Tooling](docs/Binary_Tooling)
 * EALF - `eficheck` baselines
   * [`t8012/go-aapl-integrity`](https://github.com/t8012/go-aapl-integrity)
   * [`t8012/efivalidate`](https://github.com/t8012/efivalidate)
-  * [`EALF`](docs/EALF)
+  * [`EALF`](_docs/EALF.md)
 * ChunkList - Used to verify macOS Recovery / Internet Recovery
   * [`t8012/go-aapl-integrity`](https://github.com/t8012/go-aapl-integrity)
 * `dyld` and DSC (dyld Shared Cache)
@@ -237,7 +237,7 @@ See [docs/Binary_Tooling](docs/Binary_Tooling)
   * [`arandomdev/DyldExtractor`](https://github.com/arandomdev/DyldExtractor) - Fixes up linking
   * [dyld_shared_cache_util.cpp](https://opensource.apple.com/source/dyld/dyld-195.5/launch-cache/dyld_shared_cache_util.cpp.auto.html)
 * iBoot LocalPolicy, RemotePolicy and BAA signing
-  * [`M1_Boot_Policy`](docs/M1_Boot_Policy)
+  * [`M1_Boot_Policy`](_docs/M1_Boot_Policy.md)
 * Rosetta2
   * [ProjectChampollion](https://github.com/FFRI/ProjectChampollion/)
 * Swift
@@ -255,7 +255,7 @@ See [docs/Binary_Tooling](docs/Binary_Tooling)
 
 ### Secure Enclave Processor
 
-* [SEP_memmap](docs/SEP_memmap)
+* [SEP_memmap](_docs/SEP_memmap.md)
 * [sep.yaml](_data/sep.yaml)
 * [SEPROM](https://github.com/hekapooios/hekapooios.github.io/tree/master/resources/SEPROM)
 * [`nyuszika7h/sepfinder`](https://github.com/nyuszika7h/sepfinder)
@@ -360,7 +360,7 @@ See [docs/Binary_Tooling](docs/Binary_Tooling)
   * [XPoCe](http://newosxbook.com/tools/XPoCe2.html)
 * macOS Internet Recovery
   * [`rickmark/apple_net_recovery`](https://github.com/rickmark/apple_net_recovery)
-  * [`Internet Recovery`](docs/Internet_Recovery)
+  * [`Internet Recovery`](_docs/Internet_Recovery.md)
 * [iCloud Keychain](https://www.theiphonewiki.com/wiki/ICloud_Keychain) (Umbrella for multiple formats)
 
 ### System Configuration and State
@@ -397,6 +397,8 @@ See [docs/Binary_Tooling](docs/Binary_Tooling)
 * [Odyssey](https://theodyssey.dev/)
 * [Chimera](https://chimera.coolstar.org/)
 * [palera1n](https://palera.in/)
+* [Dopamine](https://ellekit.space/dopamine)
+* [XinaA15](https://zhuxinlang.github.io/)
 * [rootlessJB writeup](https://github.com/jakeajames/rootlessJB3/blob/master/writeup.pdf)
 * [evasi0n writeup by geohot](http://geohot.com/e7writeup.html)
 * [Fugu14 writeup](https://github.com/LinusHenze/Fugu14/blob/master/Writeup.pdf)
